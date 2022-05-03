@@ -27,6 +27,8 @@ html {
   font-size: 10px;
 }
 
+/* design */
+
 #app {
   background-color: #000;
   margin: 4rem auto;
@@ -80,12 +82,6 @@ html {
   padding: 4.5rem;
 }
 
-.cont-main {
-  /* padding: 4.5rem; */
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
 .cont-main::before {
   content: "";
   display: block;
@@ -119,7 +115,6 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
   color: #c4c4c4;
 }
 
@@ -148,9 +143,7 @@ html {
   line-height: 15px;
   color: #ffffff;
 }
-.btn-topic {
-  /* margin: 5rem; */
-}
+
 .btn-topic > li {
   display: inline-block;
   margin-bottom: 0.3rem;
@@ -180,6 +173,7 @@ html {
 .img-like:last-child {
   margin-left: -2rem;
 }
+
 @media screen and (max-width: 76rem) {
   #app {
     flex-direction: column;
